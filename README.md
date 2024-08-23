@@ -18,6 +18,6 @@ https://camb.readthedocs.io/en/latest/
 https://cobaya.readthedocs.io/en/latest/  
 https://github.com/cmbant/getdist  
 
-Once Cobaya is installed, you will need to install the latest Planck likelihood using
+Once Cobaya is installed, you will also need to install the latest Planck likelihood using
 
 > python -m cobaya install planck_NPIPE_highl_CamSpec.TTTEEE
