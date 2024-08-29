@@ -1,0 +1,30 @@
+# Likelihood block
+likelihood: 
+  simple_likelihood:
+
+# Parameters block
+# Beware, the values for the priors bounds, reference point and proposal are missing!
+params:
+  alpha:
+    prior:
+      min: 
+      max:
+    ref:
+    proposal:
+    latex: \alpha
+  beta:
+    prior:
+      min:
+      max:
+    ref: 
+    proposal:
+    latex: \beta
+  gamma:
+    derived: True
+    latex: \gamma
+    
+# Sampler block
+sampler:
+  mcmc:
+    Rminus1_stop: 0.01
+    max_tries: 1000
